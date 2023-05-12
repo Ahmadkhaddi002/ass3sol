@@ -1,0 +1,43 @@
+/* Navbar */
+.navbar {
+  margin-bottom: 0;
+  background-color: brown;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-toggle {
+  margin-right: 15px;
+}
+
+/* Page Heading */
+h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Tall Section */
+.tall-section {
+  background-color: #f5f5f5;
+  padding: 30px;
+  min-height: 1000px;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .visible-xs {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .visible-xs {
+    display: none;
+  }
+}
+p{
+  background-color: aqua;
+padding: 13px;
+}
